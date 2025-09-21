@@ -173,6 +173,37 @@ font-weight: bold;
     color: black;
     
 }
+#header .menu .reg{
+    width: 40%;
+    height: 95px;
+    border: 2px solid green;
+    float: right;
+    line-height: 20%;
+    margin-top: -75px
+}
+#header .menu .reg .btn{
+    float: left;
+    border:1px solid white;
+    background-color: rgb(171, 171, 116);
+ font-weight: bold;
+}
+#header .menu .reg .btn:hover{
+    background: blue;
+}
+#header .menu .reg .btn1{
+    width: 25%;
+    height: 5.5vh;
+    float: left;
+    border-radius: 5px;
+    background: rgb(171, 171, 116);
+    border:1px solid white;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#header .menu .reg .btn1:hover{
+    background: blue;
+}
 #video{
     width: 80%;
     min-height: 80vh;

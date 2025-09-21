@@ -183,13 +183,90 @@ font-weight: bold;
 #footer{
     width: 100%;
     height: 70vh;
-    background: black;
+    border: 2px solid green;
     margin-top: 20px;
+    background: rgb(36, 33, 33);
 }
 #footer .inner{
     width: 90%;
     height: 60vh;
-    background: red;
+   border: 3px solid black;
     margin: auto;
     }
-   
+    #footer .row .box1{
+        border: 2px solid yellow;
+        width: 7%;
+        height: 12vh;
+        margin-left: 15px;
+    }
+    #footer .row .box1 img{
+        width: 130%;
+        height: 80px;
+        border-radius: 100%;
+        float: left;
+    }
+    #footer .row .box2{
+        border: 2px solid blue;
+         height: 12vh;
+width: 20%;
+    }
+    #footer .row .box5{
+        border: 2px solid blue;
+         height: 12vh;
+width: 20%;
+    }
+      #footer .row .box3{
+        border: 2px solid yellow;
+        width: 27%;
+        height: 20vh;
+        margin-left: 15px;
+        
+      }
+       #footer .row .box4{
+        border: 2px solid yellow;
+        width: 27%;
+        height: 9vh;
+        margin-left: 15px;
+        margin-top: -60px;
+      
+      }
+       #footer .row .box4 ul li{
+       float: left;
+       width: 60px;
+        list-style: none;
+       }
+       #footer .row .box4 ul li a{
+color: white;
+ text-decoration: none;
+       }
+        #footer .row .box4 ul li a:hover{
+            color: grey;
+        }
+        #footer .row .box6{
+         border: 2px solid yellow;
+        width: 20%;
+        height: 28vh;
+        }
+      #footer .row .box6 ul li {
+        height: 30px;
+      
+       
+        color: rgb(217, 203, 203);
+      }
+      #footer .row .box6 ul li a{
+        color: white;
+         text-decoration: none;
+      }
+      #footer .row .box6 ul li a:hover{
+color: gray;
+      }
+      #caption{
+        width:30%;
+        height: 45vh;
+        float: right;
+       margin-top: -280px;
+        border: 2px solid white;
+      }
+      #caption .write{
+        width: 30%;
+      }

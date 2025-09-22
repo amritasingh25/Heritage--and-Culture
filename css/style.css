@@ -146,6 +146,7 @@ float:left;
     font-weight: bold;
     
 }
+
  #header .main .menu .icon1 .select{
     width: 20%;
 height: 35px;
@@ -214,6 +215,7 @@ font-weight: bold;
 #header .menu .reg .btn1:hover{
     background: blue;
 }
+
 #video{
     width: 80%;
     min-height: 80vh;

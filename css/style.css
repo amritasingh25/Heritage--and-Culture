@@ -98,7 +98,7 @@ float: right;
 
 }
 #header .main .menu{
-width:58%;
+width:80%;
 border: 2px solid yellow;
 height:100px ;
 text-align: center;
@@ -234,8 +234,24 @@ font-weight: bold;
 #header .menu .reg .btn2:hover{
     background: rgb(163, 152, 152);
 }
+#header .menu .reg .btn3{
+    width: 20%;
+    height: 5.5vh;
+    float: left;
+ 
+    line-height: 35px;
+    border-radius: 5px;
+   font-size: large;
+   text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 11px; 
+   
+}
 
-
+#header .menu .reg .btn3:hover{
+    background: rgb(163, 152, 152);
+}
 
 
 #video{
@@ -254,7 +270,7 @@ font-weight: bold;
 }
 #footer .inner{
     width: 90%;
-    height: 60vh;
+    height: 70vh;
    border: 3px solid black;
     margin: auto;
     }
@@ -334,4 +350,11 @@ color: gray;
       }
       #caption .write{
         width: 30%;
+      }
+      #footer .row .box7{
+       border: 2px solid yellow;
+        width: 105%;
+        height: 20vh;
+       margin-left: -15px;
+        margin-top: 70px;
       }

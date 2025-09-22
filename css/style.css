@@ -83,6 +83,16 @@ margin: 25px;
  line-height: 78px;
  font-weight: bold;
 }
+#container #header .main .title h1 span{
+   font-family: "Great Vibes", cursive ;  
+ font-size: 30px;
+ color: rgb(6, 32, 43, 0.9);
+position: absolute;
+top: 70px;
+right: 950px;
+float: right;
+
+}
 #header .main .menu{
 width:58%;
 border: 2px solid yellow;

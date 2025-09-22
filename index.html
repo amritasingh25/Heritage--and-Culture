@@ -20,7 +20,7 @@
 </div><!--end of icon-->
 <div class="main">
     <div class="title">
-<h1> Sanskriti <br><span >(by Pairavi)</span></h1>
+<h1> Sanskriti</h1><h2 class="ml3"> by Pairavi</h2>
     </div>
     <div class="menu">
         <div class="search">
@@ -30,7 +30,7 @@
 
 <div class="icon1">
 <ul>
-<li><a href="">Map</a> </li>
+<li><a href=""><i class="fa fa-map-marker" ><b>Map</b></i></a> </li>
 <li><a href="">More</a> </li>
 </ul>
 <div class="choose">
@@ -66,7 +66,10 @@
     
     <a href="login.html"><button type="submit" class="btn1 btn-primary  ">Login</button></a> 
 <a href=""><button type="submit" class="btn1 btn-primary ">About Us</button> </a>
-    </div>
+<a href="" class="btn2">Support US</a>   
+<a href="" class="btn2">Media</a>   
+<i class="fa fa-bars btn"></i>
+</div>
     </div><!--end of menu-->
 </div><!--end of main-->
 
@@ -184,5 +187,26 @@
         </div><!--end of inner-->
     </div><!--end of footer-->
     <script src-="js/bootstrap.bundle.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script>
+    // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml3');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: (el, i) => 150 * (i+1)
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
 </body>
 </html>

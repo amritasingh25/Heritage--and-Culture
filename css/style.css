@@ -51,14 +51,14 @@ background: rgb(105, 105, 50);
    background: linear-gradient(rgba(192, 128, 64, 0.4),rgba(182, 114, 47, 0.5));
   
    display: flex;
-   border: 2px solid red;
+  /* border: 2px solid red;*/
 }
  #header .main{
     width: 88%;
     height: 150px;
     line-height: 80px;
     float: left;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     float: right;
     display: flex;
 
@@ -67,7 +67,7 @@ background: rgb(105, 105, 50);
     width:12%;
     height: 150px;
     margin: 0px,0px,;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 }
 #container #header .icon img{
     border-radius: 100%;
@@ -76,7 +76,7 @@ background: rgb(105, 105, 50);
 #container #header .main .title{
     width:30%;
     line-height: 10px;
-border: 2px solid yellow;
+
 height:100px ;
 margin: 25px;
 }
@@ -99,25 +99,26 @@ float: right;
 }
 #header .main .menu{
 width:80%;
-border: 2px solid yellow;
+
 height:100px ;
 text-align: center;
 margin: 25px;
 }
 #container #header .main .menu .search{
     width: 55%;
-    border: 3px solid green;
+    
     
 }
 
 #container #header .main .menu .search .search-box{
-    width: 350px;
+    width: 500px;
     height: 10px;
     font-size: 14px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
     display: block;
+    text-align: center;
 }
 
 
@@ -125,7 +126,7 @@ margin: 25px;
  #container #header .main .menu .icon1{
     width: 60%;
     height: 40px;
-    border: 3px solid green;
+   
     margin-top: 10px;
 
 }
@@ -134,7 +135,8 @@ margin: 25px;
 height: 35px;
 float:left; 
     line-height: 10px;
-    border: 3px solid blue;
+   
+   
     
 }
 #header .choose .choose1{
@@ -156,7 +158,7 @@ float:left;
 height: 35px;
 float:right; 
     line-height: 10px;
-    border: 3px solid blue;
+    
 }
 #header .select .select1{
     width: 100%;
@@ -191,16 +193,18 @@ font-weight: bold;
 #header .menu .reg{
     width: 40%;
     height: 95px;
-    border: 2px solid green;
+   /*border: 2px solid red;*/
     float: right;
-    line-height: 20%;
-    margin-top: -75px
+    line-height: 0%;
+    margin-top: -75px;
+    
 }
 #header .menu .reg .btn{
     float: left;
     border:1px solid white;
     background-color: rgb(171, 171, 116);
  font-weight: bold;
+ margin-left: 20px;
 }
 #header .menu .reg .btn:hover{
     background: blue;
@@ -211,7 +215,7 @@ font-weight: bold;
     float: left;
     border-radius: 5px;
     background: rgb(171, 171, 116);
-    border:1px solid white;
+   border: 1px solid white;
     color: white;
     font-weight: bold;
     margin-left: 20px;
@@ -259,23 +263,23 @@ font-weight: bold;
     min-height: 80vh;
    margin: auto;
  margin-top: 25px;
-    border: 3px solid red;
+  
 }
 #footer{
     width: 100%;
     height: 70vh;
-    border: 2px solid green;
+   
     margin-top: 20px;
     background: rgb(36, 33, 33);
 }
 #footer .inner{
     width: 90%;
     height: 70vh;
-   border: 3px solid black;
+  
     margin: auto;
     }
     #footer .row .box1{
-        border: 2px solid yellow;
+       
         width: 7%;
         height: 12vh;
         margin-left: 15px;
@@ -287,24 +291,24 @@ font-weight: bold;
         float: left;
     }
     #footer .row .box2{
-        border: 2px solid blue;
+       
          height: 12vh;
 width: 20%;
     }
     #footer .row .box5{
-        border: 2px solid blue;
+       
          height: 12vh;
 width: 20%;
     }
       #footer .row .box3{
-        border: 2px solid yellow;
+         /*border: 2px solid yellow; */
         width: 27%;
         height: 20vh;
         margin-left: 15px;
         
       }
        #footer .row .box4{
-        border: 2px solid yellow;
+       /* border: 2px solid yellow;*/
         width: 27%;
         height: 9vh;
         margin-left: 15px;
@@ -324,7 +328,7 @@ color: white;
             color: grey;
         }
         #footer .row .box6{
-         border: 2px solid yellow;
+         /*border: 2px solid yellow;*/
         width: 20%;
         height: 28vh;
         }
@@ -346,15 +350,165 @@ color: gray;
         height: 45vh;
         float: right;
        margin-top: -280px;
-        border: 2px solid white;
+       
       }
       #caption .write{
         width: 30%;
       }
-      #footer .row .box7{
-       border: 2px solid yellow;
-        width: 105%;
-        height: 20vh;
-       margin-left: -15px;
-        margin-top: 70px;
+    
+#footer .row .box7{
+        /*border: 2px solid yellow;*/
+        width: 50%;
+        height: 25vh;
+        margin-top: 80px;
+        margin-left: -15px;
+    }
+    #footer .row .box7 img{
+        width: 130%;
+        height: 180px;
+        border-radius: 100%;
+        margin-left: -19px;
+    }
+     
+    #footer .row .box8{
+       /* border: 2px solid blue;*/
+         height: 25.1vh;
+width: 55%;
+float: right;
+margin-top: -170px;
+
+    }
+     #footer .row .box8 h1{
+        margin-top: 50px;
+     }
+      #footer .row .box8 a{
+        text-decoration: none;
       }
+      #footer .row .box9{
+       /*border: 2px solid yellow;*/
+        width: 50%;
+        height: 24vh;
+        margin-top: -170px;
+        margin-left: 390px;
+       
+    }
+    #footer .row .box9 img{
+        width: 100%;
+        height: 150px;
+        border-radius: 100%;
+        margin-left: -8px;
+         margin-top: -4px
+    }
+    #footer .row .box10{
+        
+         height: 25.1vh;
+width: 55%;
+
+margin-top: -170px;
+margin-left: 560px ;
+
+    }
+     #footer .row .box10 h1{
+        margin-top: 30px;
+     }
+      #footer .row .box10 a{
+        text-decoration: none;
+      }
+      .copyright {
+      margin-top: 100px;
+      font-size: 20px;
+      color: #bbb;
+     
+      width: 40%;
+        min-height: 100px;
+        
+        margin-left: 800px;
+    }
+.copyright span{
+    color: orange;
+}
+
+.slider{
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+  
+    margin:auto;
+    margin-top: 100px;
+    
+}
+
+figure{
+    position: relative;
+    left: 0;
+    width: 400%; /* width dikali slide */
+    animation: 10s slide infinite;
+}
+
+.slide{
+    position: relative;
+    width: 25%; /* width dibagi slide */
+    float: left;
+}
+
+.slide h1{
+    position: absolute;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slide img{
+    width: 100%;
+    height: 500px;
+   align-items: center;
+}
+
+@keyframes slide{
+    0%{
+        left:0;
+    }
+    10%{
+        left:0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    55%{
+        left:-300%;
+    }
+    65%{
+        left:-300%;
+    }
+    66%{
+        left:-200%;
+    }
+    74%{
+        left:-200%;
+    }
+    75%{
+        left:-100%;
+    }
+    85%{
+        left:-100%;
+    }
+    90%{
+        left:0;
+    }
+    1000%{
+        left:0;
+    }
+}
+
